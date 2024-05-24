@@ -661,6 +661,37 @@ require('lazy').setup({
     opts = {},
   },
 
+  -- {
+  --   'simrat39/rust-tools.nvim',
+  --   opts = {
+  --     setup = function()
+  --       require('rust-tools').setup {
+  --         tools = {
+  --           autoSetHints = true,
+  --           hover_with_actions = true,
+  --           runnables = {
+  --             use_telescope = true,
+  --           },
+  --           inlay_hints = {
+  --             show_parameter_hints = true,
+  --             parameter_hints_prefix = ' ',
+  --             other_hints_prefix = ' ',
+  --           },
+  --         },
+  --       }
+  --     end,
+  --   },
+  --   dependencies = {
+  --     'neovim/nvim-lspconfig',
+  --   },
+  -- },
+
+  -- {
+  --   'mrcjkb/rustaceanvim',
+  --   version = '^4', -- Recommended
+  --   lazy = false, -- This plugin is already lazy
+  -- },
+
   {
     'github/copilot.vim',
     dependencies = { 'nvim-lua/plenary.nvim' },
